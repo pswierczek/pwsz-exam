@@ -1,0 +1,20 @@
+Started by user anonymous
+Building in workspace /home/student/.jenkins/jobs/exam/workspace
+Cloning the remote Git repository
+Cloning repository https://github.com/pswierczek/pwsz-exam.git
+> git init /home/student/.jenkins/jobs/exam/workspace # timeout=10
+Fetching upstream changes from https://github.com/pswierczek/pwsz-exam.git
+> git --version # timeout=10
+> git fetch --tags --progress https://github.com/pswierczek/pwsz-exam.git +refs/heads/*:refs/remotes/origin/*
+> git config remote.origin.url https://github.com/pswierczek/pwsz-exam.git # timeout=10
+> git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+> git config remote.origin.url https://github.com/pswierczek/pwsz-exam.git # timeout=10
+Fetching upstream changes from https://github.com/pswierczek/pwsz-exam.git
+> git fetch --tags --progress https://github.com/pswierczek/pwsz-exam.git +refs/heads/*:refs/remotes/origin/*
+> git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+> git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 97c53e860ea75f03457d6cfeaeb2cafb27d0d04e (refs/remotes/origin/master)
+> git config core.sparsecheckout # timeout=10
+> git checkout -f 97c53e860ea75f03457d6cfeaeb2cafb27d0d04e
+First time build. Skipping changelog.
+Finished: SUCCESS
